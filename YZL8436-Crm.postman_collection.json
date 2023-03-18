@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "e0011cbd-68e3-4e60-9691-4c5232617765",
+		"name": "YZL8436-Crm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "MusteriKaydet",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Adi",
+							"value": "Ahmet",
+							"type": "default"
+						},
+						{
+							"key": "Adresi",
+							"value": "asfdas asdasd",
+							"type": "default"
+						},
+						{
+							"key": "SehirId",
+							"value": "3",
+							"type": "default"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7129/api/Musteri/Kaydet",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7129",
+					"path": [
+						"api",
+						"Musteri",
+						"Kaydet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SehirGetir",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7129/api/Musteri/SehirGetir?ulkeId=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7129",
+					"path": [
+						"api",
+						"Musteri",
+						"SehirGetir"
+					],
+					"query": [
+						{
+							"key": "ulkeId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MusteriListele",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7129/api/Musteri/Listele",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7129",
+					"path": [
+						"api",
+						"Musteri",
+						"Listele"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UrunFiyatiGetir",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7129/api/siparis/UrunFiyatiGetir?id=3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7129",
+					"path": [
+						"api",
+						"siparis",
+						"UrunFiyatiGetir"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

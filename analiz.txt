@@ -1,0 +1,20 @@
+CRM
+-----------------------
+
+Müşteri
+	* CRUD
+Ziyaret
+	* CRUD
+Ürün/Hizmet
+	* CRUD
+Sipariş
+	* Ekle, Sil
+
+Altyapı
+---------------
+	Front-end
+		* HTML, CSS, Bootstrap, Javascript, Jquery
+	Back-end
+		* Webapi
+		* Sql server
+		* EfCore
